@@ -68,10 +68,10 @@ function Dashboard() {
   >
 <button
   onClick={() =>
-    window.open(
-      "http://localhost:5000/api/report/pdf",
-      "_blank"
-    )
+   window.open(
+  `${import.meta.env.VITE_API_URL}/report/pdf`,
+  "_blank"
+)
   }
   className="report-button"
 >
