@@ -1,0 +1,21 @@
+{
+  "model": "IsolationForest",
+  "features": [
+    "duration",
+    "src_bytes",
+    "dst_bytes"
+  ],
+  "datasetRows": 600,
+  "trainingRows": 450,
+  "testingRows": 150,
+  "accuracy": 0.98,
+  "precision": 0.9,
+  "recall": 1.0,
+  "f1Score": 0.9474,
+  "confusionMatrix": {
+    "trueNegative": 120,
+    "falsePositive": 3,
+    "falseNegative": 0,
+    "truePositive": 27
+  }
+}
